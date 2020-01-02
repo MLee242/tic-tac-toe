@@ -1,6 +1,13 @@
 # Tic-Tac-Toe
 
-Two Player and AI Mode
+
+Two game mode:
+    1. Two Player Mode
+    2. Against AI. Difficult Level:
+        - EASY (Random moves)
+        - IMPOSSIBLE (Minimax Algo)
+    
+
 
 Check it out at: https://buddybuddymoon.github.io/tic-tac-toe
 
