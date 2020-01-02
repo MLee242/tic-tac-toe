@@ -406,7 +406,7 @@ const displayController = (function(){
             if(real){
                 player1.incrementscore();
                 if(p == 3){
-                    coloring(i, 3+i,6+i);
+                    coloring(0, 4, 8);
                 }else{
                     coloring(2, 4, 6);
                 }
@@ -416,7 +416,7 @@ const displayController = (function(){
             if(real){
                 player2.incrementscore();
                 if(p == -3){
-                    coloring(i, 3+i,6+i);
+                    coloring(0, 4,8);
                 }else{
                     coloring(2, 4, 6);
                 }
