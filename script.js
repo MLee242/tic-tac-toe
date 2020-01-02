@@ -32,6 +32,7 @@ const gameboard = (function(){
     let disable = false;
     const scoreboard = document.getElementById('game-status');
     const dp = document.getElementById('displaywinner');
+    const wrap = document.getElementById('wrapper2');
     const ref = document.getElementsByClassName('refresh');
     
 
@@ -172,7 +173,7 @@ const gameboard = (function(){
         }else if(status == 2){
             dp.textContent = "Player 2 Wins!";
         }
-        dp.setAttribute('style', 'display:block');
+        wrap.setAttribute('style', 'display:block')
         ref[0].setAttribute('style','display:inline-block!important');
     }
     function resetboard(){
@@ -186,7 +187,7 @@ const gameboard = (function(){
         disable = false;
        
         scoreboard.setAttribute('style', 'display:block');
-        dp.setAttribute('style', "display:none");
+        wrap.setAttribute('style', "display:none");
         ref[0].setAttribute('style', "display:none!important");
 
     }

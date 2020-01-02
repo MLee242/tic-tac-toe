@@ -192,18 +192,20 @@ label{
     height:87px;
     
 }
-#displaywinner{
-    display:none;   
+#wrapper2{
+    display:none; 
     margin-top:20px;
-    margin-bottom:35px; 
+    height:87px;
+}
+#displaywinner{  
+    
 }
 .winner{
     display:block;
     margin:auto;
     width:300px;
     background-color:#cce5ff;;
-    margin-top:25px;
-    margin-bottom:30px;
+    
     font-family: 'Ma Shan Zheng';
     font-weight:bold;
     font-size:35px;
