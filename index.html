@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TIC TAC TOE</title>
+    <link rel = "stylesheet" href="style.css" />
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Ma+Shan+Zheng|Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id = "wrapper">
+        <div class= "container1 rotate1"></div>
+        <div class= "container1 rotate2"></div>
+        <div id = "container">
+            <div id = "display1">
+                <h1><span class="first-letter">T</span>IC <span class="first-letter">T</span>AC <span class="first-letter">T</span>OE</h1>
+                <br>
+                <p class ="p1">PLAYERS </p>
+                <button id="1" class="fas fa-user-friends btnpair btnstyle1"></button>
+                <button id="2" class="fas fa-user-alt btnpair btnstyle2"></button>
+                <div class="form-group1">
+                    <label for="playeronename">&#10005;</label>
+                    <input type="text" name="playeronename" placeholder="Player1 Name" class="input" maxlength="12"><br>
+                </div>
+                <div class="options">
+                    <div id="form-group2">
+                        <label for="playertwoname">&#9675;</label>
+                        <input type="text" name="playertwoname" placeholder="Player2 Name" class="input" maxlength="12"><br>
+                    </div>
+                    <div id="btn-group3">
+                        <button id="3" class="btn btnstyle4">NORMAL</button>
+                        <button id="5" class="btn btnstyle3">IMPOSSIBLE</button>
+                    </div>
+                    <button id="6" class="btn1">PLAY</button>
+                </div>
+            </div>
+            <div id = "display2">
+                <div class="navbar">
+                    <button id="7" class="loc fa fa-home btnpair btnstyle1"></button>
+                </div>
+                
+                <div id="displaywinner" class="winner">
+                    Player 1 Wins!
+                </div>
+
+                <div id="game-status">
+                    <p id="p1name" class="scoreboard">P1 <span id="p1score">0</span></p>
+                    <div class="tie scoreboard">
+                        Ties
+                        <br>
+                        <span id="tiescore">0</span>
+                    </div> 
+                    <p id="p2name" class="scoreboard">P01234...<span id="p2score">0</span></p>
+                </div>
+                <div id="gameboard">
+                    <table class="board">
+                        <tr>
+                            <td id="1" class="sq"></td>
+                            <td id="2" class="sq v"></td>
+                            <td id="3" class="sq"></td>
+                        </tr>
+                        <tr>
+                            <td id="4" class="sq h"></td>
+                            <td id="5" class="sq v h"></td>
+                            <td id="6" class="sq h"></td>
+                        </tr>
+                        <tr>
+                            <td id="7" class="sq"></td>
+                            <td id="8" class="sq v"></td>
+                            <td id="9" class="sq"></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div id = "reset">
+                    <button id="8" class="loc fa fa-refresh btnpair btnstyle4 refresh"></button>
+                    <button id="9" class="loc fa fa-trash btnpair btnstyle3 delete"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+
+</body>
+<script src=script.js></script>
+</html>
