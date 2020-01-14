@@ -4,8 +4,8 @@
 Two game mode:
 <p>&nbsp;</p>
     1. Two Player Mode
-    <p>&nbsp;</p>
     2. Against AI. Difficulty Levels:
+    <p>&nbsp;</p>
         - EASY (Random moves)
         - IMPOSSIBLE (Minimax Algo)
     <p>&nbsp;</p>
