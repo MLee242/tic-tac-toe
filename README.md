@@ -9,7 +9,7 @@ Two game mode:
         - EASY (Random moves)
     <p></p>
         - IMPOSSIBLE (Minimax Algo)
-    
+    <p></p>
 
 
 Check it out at: https://buddybuddymoon.github.io/tic-tac-toe
