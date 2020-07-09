@@ -12,7 +12,7 @@ Two game mode:
     <p></p>
 
 
-Check it out at: https://buddybuddymoon.github.io/tic-tac-toe
+Check it out at: https://mlee242.github.io/tic-tac-toe
 
 ![What is this](screenshot1.png?raw=true "Screenshot")
 
